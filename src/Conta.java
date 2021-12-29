@@ -6,6 +6,7 @@ public class Conta {
 	Cliente titular ;
 	
 	public void deposita(double valor) {
+		System.out.println("teste");
 		this.saldo += valor;
 	}
 	
